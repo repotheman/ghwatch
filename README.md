@@ -1,7 +1,7 @@
 # ghwatch 👁️
 
 [![npm version](https://img.shields.io/npm/v/@ripudaman_10/ghwatch.svg)](https://npmjs.org/package/@ripudaman_10/ghwatch)
-[![License](https://img.shields.io/npm/l/@ripudaman_10/ghwatch.svg)](https://github.com/repotheman/ghwatch)
+[![License](https://img.shields.io/github/license/repotheman/ghwatch.svg)](https://github.com/repotheman/ghwatch/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/npm/dm/@ripudaman_10/ghwatch.svg)](https://npmjs.org/package/@ripudaman_10/ghwatch)
 
 > **GitHub Username Change Auditor & Auto-Fixer**
