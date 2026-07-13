@@ -19,7 +19,7 @@
     "auditor"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@octokit/rest": "^22.0.1",
     "chalk": "^4.1.2",

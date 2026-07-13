@@ -77,4 +77,4 @@ npx ghwatch fix <old-username> <new-username> --repo <owner/repo>
 - **Low**: Code comments or other generic references.
 
 ## License
-ISC
+MIT
