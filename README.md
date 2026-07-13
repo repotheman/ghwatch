@@ -1,8 +1,8 @@
 # ghwatch 👁️
 
-[![npm version](https://img.shields.io/npm/v/ghwatch.svg)](https://npmjs.org/package/ghwatch)
-[![License](https://img.shields.io/npm/l/ghwatch.svg)](https://github.com/ghwatch/ghwatch)
-[![Downloads](https://img.shields.io/npm/dm/ghwatch.svg)](https://npmjs.org/package/ghwatch)
+[![npm version](https://img.shields.io/npm/v/@ripudaman_10/ghwatch.svg)](https://npmjs.org/package/@ripudaman_10/ghwatch)
+[![License](https://img.shields.io/npm/l/@ripudaman_10/ghwatch.svg)](https://github.com/repotheman/ghwatch)
+[![Downloads](https://img.shields.io/npm/dm/@ripudaman_10/ghwatch.svg)](https://npmjs.org/package/@ripudaman_10/ghwatch)
 
 > **GitHub Username Change Auditor & Auto-Fixer**
 
@@ -51,13 +51,13 @@ export GITHUB_TOKEN="your_pat_here"
 Find all references to your old username across all your repositories:
 
 ```bash
-npx ghwatch scan <old-username> <new-username>
+npx @ripudaman_10/ghwatch scan <old-username> <new-username>
 ```
 
 To scan a single repository:
 
 ```bash
-npx ghwatch scan <old-username> <new-username> --repo <owner/repo>
+npx @ripudaman_10/ghwatch scan <old-username> <new-username> --repo <owner/repo>
 ```
 
 ### 2. Auto-Fix broken references
@@ -65,7 +65,7 @@ npx ghwatch scan <old-username> <new-username> --repo <owner/repo>
 Once you've identified repositories that need fixing, run the `fix` command. This will securely clone the repository to a temporary directory, create a branch, apply precise string replacements, push, and open an auto-fix Pull Request.
 
 ```bash
-npx ghwatch fix <old-username> <new-username> --repo <owner/repo>
+npx @ripudaman_10/ghwatch fix <old-username> <new-username> --repo <owner/repo>
 ```
 
 *Note: By default, this command interactively prompts for confirmation before pushing any changes. In CI/CD environments, you must explicitly bypass the prompt using the `--yes` flag.*

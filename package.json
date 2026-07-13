@@ -1,8 +1,19 @@
 {
-  "name": "ghwatch",
-  "version": "1.0.0",
+  "name": "@ripudaman_10/ghwatch",
+  "version": "1.0.1",
   "description": "GitHub Username Change Auditor & Auto-Fixer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repotheman/ghwatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/repotheman/ghwatch/issues"
+  },
+  "homepage": "https://github.com/repotheman/ghwatch#readme",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "ghwatch": "dist/index.js"
   },
