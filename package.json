@@ -1,0 +1,37 @@
+{
+  "name": "ghwatch",
+  "version": "1.0.0",
+  "description": "GitHub Username Change Auditor & Auto-Fixer",
+  "main": "dist/index.js",
+  "bin": {
+    "ghwatch": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "username",
+    "rename",
+    "auditor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2",
+    "simple-git": "^3.36.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}
